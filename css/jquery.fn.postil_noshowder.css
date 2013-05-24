@@ -1,0 +1,26 @@
+/*
+* postil plugin (for jQuery)
+* Version: 1.0
+* @requires jQuery v1.2 or later
+* Created by Gallen Chu ( http://hi.baidu.com/zhuguoneng )
+*/
+.gallenTooltipWrapper{
+  padding-left:16px;
+  border: 0px;
+  display: none;
+  background: transparent url(../images/arrow.gif) no-repeat scroll left top;
+  position: absolute;
+  z-index: 1000;
+  /*overflow:auto;*/
+}
+.gallenTooltip{
+  padding:4px 4px;
+  border: 1px solid #000000;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  background: #FFFFE1;
+  font-size: 12px;
+  text-align: left;
+  z-index: 10001;
+  /*overflow:auto;*/
+}
